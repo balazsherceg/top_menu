@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <head>
+        <title>fyör&copy; - top menu template</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="top menu template">
+        <meta name="keywords" content="template, menu">
+        <meta name="author" content="Balázs Herceg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            #myHeader
+            {
+                position: relative;
+                margin: auto;
+                width: 75%;
+
+                border: 2px solid red;
+                text-align: center;
+            }
+
+            #myNavigation
+            {
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+                margin: auto;
+                width: 75%;
+                /*height: 50px;*/
+                z-index: 1;
+
+                /*border: 2px solid red;*/
+                background-color: white;
+            }
+
+            ul
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li
+            {
+                float: left;
+                border-right: 1px solid #bbb;
+            }
+
+            li:last-child
+            {
+                border-right: none;
+            }
+
+            li a
+            {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active)
+            {
+                background-color: #111;
+            }
+
+            .active
+            {
+                background-color: #4CAF50;
+            }
+
+            #mySection
+            {
+                position: relative;
+                margin: auto;
+                width: 75%;
+
+                border: 2px solid red;
+            }
+
+            #myFooter
+            {
+                position: relative;
+                margin: auto;
+                width: 75%;
+
+                border: 2px solid red;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header id="myHeader">
+            <h1>top menu template</h1>
+        </header>
+
+        <br/>
+
+        <nav id="myNavigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <br/>
+
+        <!--<hr>-->
+        <section id="mySection">
+            <!--<div>-->
+                <h1>title 1</h1>
+                <h1>title 2</h1>
+                <h1>title 3</h1>
+                <h1>title 4</h1>
+                <h1>title 5</h1>
+                <h1>title 6</h1>
+                <h1>title 7</h1>
+                <h1>title 8</h1>
+                <h1>title 9</h1>
+                <h1>title 10</h1>
+                <h1>title 11</h1>
+                <h1>title 12</h1>
+                <h1>title 13</h1>
+                <h1>title 14</h1>
+                <h1>title 15</h1>
+                <h1>title 16</h1>
+                <h1>title 17</h1>
+                <h1>title 18</h1>
+                <h1>title 19</h1>
+                <h1>title 20</h1>
+                <h1>title 21</h1>
+                <h1>title 22</h1>
+                <h1>title 23</h1>
+                <h1>title 24</h1>
+                <h1>title 25</h1>
+                <h1>title 26</h1>
+                <h1>title 27</h1>
+                <h1>title 28</h1>
+                <h1>title 29</h1>
+                <h1>title 30</h1>
+            <!--</div>-->
+        </section>
+
+        <br/>
+
+        <footer id="myFooter">
+            <h1>template footer</h1>
+        </footer>
+    </body>
+</html>
